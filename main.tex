@@ -1,0 +1,86 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}[top=2.54cm, bottom=2.54cm, left=2.54cm, right=2.54cm]
+\usepackage{xcolor}
+\usepackage{graphicx}
+% \usepackage{subfig}
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{textcomp}
+\usepackage{amsmath}
+% \usepackage{gensymb}
+% \usepackage[T1]{fontenc}
+
+\usepackage{hyperref}
+
+\newcommand{\degree}{\ensuremath{^\circ}}
+
+\title{Rannsóknarskýrsla: Autonomous UAV Landing}
+\author{Joshua Springer, Garret Forthofer, Kjartan Már Andersen}
+\date{September 2020}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+    \input{sections/abstract}
+\end{abstract}
+
+% \section{Overview}
+% \input{sections/overview}
+\section{Introduction}
+\input{sections/introduction}
+
+\section{Methods}
+\input{sections/goals}
+
+\subsection{Construction}
+\input{sections/construction}
+
+\subsection{Hardware Setup}
+\input{sections/computational_hardware_setup}
+
+\subsection{Camera Modules and Cases}
+\input{sections/camera_module}
+
+\subsection{Component Mounting Plate}
+\input{sections/component_mounting_plate}
+
+\subsection{Software Adaptation}
+\input{sections/software_adaptation}
+
+\subsection{Landing Pad}
+\input{sections/landing_pad}
+
+\section{Results}
+
+\subsection{Assembled Drones}
+\input{sections/assembled_drones}
+
+\input{sections/results}
+
+\subsection{Flight Performance}
+\subsubsection{Maiden Flights}
+\input{sections/first_flight}
+
+\subsubsection{Stability}
+\input{sections/stability}
+
+\subsubsection{Initial Landing Attempts}
+\input{sections/initial_landing_attempts}
+
+\section{Discussion}
+
+
+% \subsection{Practical Challenges}
+\input{sections/practical_challenges}
+
+\section{Conclusion}
+\input{sections/conclusion}
+
+\bibliographystyle{IEEEtran}
+\bibliography{sections/references}
+
+\end{document}
